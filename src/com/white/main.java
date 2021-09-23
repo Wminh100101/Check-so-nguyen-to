@@ -6,7 +6,7 @@ public class main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("Xin moi nhập số cần kiểm tra:");
+		System.out.print("số cần kiểm tra:");
 		int a = sc.nextInt();
 		
 		caculate ca = new caculate(a);
